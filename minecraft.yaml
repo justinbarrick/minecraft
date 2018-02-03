@@ -1,0 +1,16 @@
+resources:
+  requests:
+    memory: 2Gi
+    cpu: 1000m
+  limits:
+    memory: 2Gi
+    cpu: 1000m
+
+minecraftServer:
+  port: 25565
+  ops: phallusopher
+  jvmOpts: "-Xmx2048M -Xms2048M"
+
+persistence:
+  dataDir:
+    Size: 40Gi
