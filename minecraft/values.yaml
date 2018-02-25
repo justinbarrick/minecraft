@@ -74,10 +74,15 @@ minecraftServer:
 
   serviceType: NodePort
   externalIPs:
-  - 159.89.133.48
-  - 159.89.137.191
-  - 165.227.49.150
-
+    - 195.201.35.88
+    - 195.201.35.231
+    - 195.201.36.81
+    - 195.201.36.83
+    - 195.201.40.128
+    - 195.201.40.151
+    - 195.201.40.152
+    - 195.201.40.153
+    - 195.201.40.154
   rcon:
     # If you enable this, make SURE to change your password below.
     enabled: false
